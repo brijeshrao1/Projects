@@ -46,7 +46,7 @@ class Account
 		static void setLastAccountNumber(long LastAccountNumber);
 		static long getLastAccountNumber();
 		
-		//fried function used here for saving in file and retriving from file
+		//friend function used here for saving in file and retriving from file
 		/*For Displaing account detail insertion(ostream) operator is overloaded*/
 		friend ofstream & operator<<(ofstream &ofs,Account &acc);
 		friend ifstream & operator>>(ifstream &ifs,Account &acc);
